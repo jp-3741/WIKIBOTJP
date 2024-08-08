@@ -1,0 +1,17 @@
+{
+    "name": "wiki-telegram-bot",
+    "version": "1.0.0",
+    "description": "A bot that posts random Wikipedia articles to a Telegram group.",
+    "main": "wiki-telegram.js",
+    "scripts": {
+      "start": "node wiki-telegram.js"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "dotenv": "^10.0.0",
+      "node-telegram-bot-api": "^0.51.0"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
